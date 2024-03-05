@@ -1,0 +1,12 @@
+{{ if ne (.Site.Params.cusdisapp-id | default "") "" }}
+
+<div id="cusdis_thread"
+  data-host=""
+  data-app-id="{{ .Site.params.cusdisappid}}"
+  data-page-id="{{ .Slug }}"
+  data-page-url="{{ .Page.RelPermalink }}"
+  data-page-title="{{ .Title }}"
+></div>
+<script async defer src="{{ .Site.Params.cusdisdatahost}}/js/cusdis.es.js"></script>
+
+{{ end }}
