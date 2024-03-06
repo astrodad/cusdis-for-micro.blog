@@ -2,8 +2,8 @@
 
 <div id="cusdis_thread"
   data-host="{{ .Site.pararms.cusdisdatahost }}"
-  data-app-id="{{ .Site.params.cusdisappid}}"
-  data-page-id="{{ .Slug }}"
+  data-appid="{{ .Site.params.cusdisappid}}"
+  data-page-id="{{ .File.UniqueID }}"
   data-page-url="{{ .Page.RelPermalink }}"
   data-page-title="{{ .Title }}"
 ></div>
