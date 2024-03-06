@@ -2,9 +2,6 @@
     "version": "0.0.1",
     "title": "Cusdis for Micro.blog",
     "description": "A plug-in to easily add the Cusdis comments engine to your Micro.blog blog) ",
-    "includes": [
-      "cusdis.html"
-  ],
   "fields": [
     {
         "field": "params.cusdisdatahost",
